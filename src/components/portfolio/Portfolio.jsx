@@ -2,9 +2,9 @@ import React from 'react'
 import './portfolio.css'
 import PROJ1 from '../../assets/group-project-1.png'
 import PROJ2 from '../../assets/workday-scheduler.png'
-import PROJ3 from '../../assets/space-ems.png'
+import PROJ3 from '../../assets/space-ems2.png'
 import PROJ4 from '../../assets/a2l-p3.png'
-import PROJ5 from '../../assets/password-generator.png'
+import PROJ5 from '../../assets/password-generator2.png'
 
 const data = [
     {
@@ -53,19 +53,23 @@ const Portfolio = () => {
             <h2>Portfolio</h2>
 
             <div className="container portfolio_container">
-                <article className="portfolio_item">
-                    <div className="portfolio_item-image">
-                        <img src={PROJ1} alt="project 1"></img>
-                    </div>
-                    <h3>Stick It To Starbucks</h3>
-                    <div className="portfolio_item-cta">
-                        <a href="https://bit.ly/3w3Jjdy" className='btn' target='_blank'>GitHub</a>
-                        <a href="https://bit.ly/36i70UU" className='btn btn-primary' target='_blank'>Live Demo</a>
-                    </div>
-                </article>
-                
-                
-            </div> 
+                {
+                    data.map(({id, image, title, github, demo}) => {
+                        return(
+                            <article key={id} className='portfolio_item'>
+                                <div className="portfolio_item-image">
+                                    <img src={image} alt={title} />
+                                </div>
+                                <h3>{title}</h3>
+                                <div className="portfolio_item-cta">
+                                    <a href={github} className='btn' target='_blank'>GitHub</a>
+                                    <a href={demo} className='btn btn-primary' target='_blank'>Live Demo</a>
+                                </div>
+                            </article>
+                        )
+                    })
+                }
+            </div>
         </section>
     )
 }

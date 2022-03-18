@@ -3,6 +3,7 @@ import './header.css'
 import CTA from './CTA'
 import ME from '../../assets/dm-logo.png'
 import HeaderSocial from './HeaderSocials'
+import {GrLocation} from "react-icons/gr"
 
 const Header = () => {
     return (
@@ -11,6 +12,7 @@ const Header = () => {
                 <h5>Hello I'm</h5>
                 <h1>Deni Mazzei</h1>
                 <h5 className="text-light">Fullstack Developer</h5>
+                <GrLocation className='header-icon' />
                 <h5 className="text-light">SATX</h5>  
                 <CTA />
                 <HeaderSocial />

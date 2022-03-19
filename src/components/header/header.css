@@ -10,10 +10,8 @@ header {
     position: relative;
 }
 
-.header_icon{
+.header-icon{
     color: var(--color-light);
-    font-size: 1.4rem;
-    margin-bottom: 1rem;
 }
 
 /* ===== CTA ====== */

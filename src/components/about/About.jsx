@@ -39,7 +39,7 @@ const About = () => {
                 </div>
 
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse voluptate culpa aliquid exercitationem nihil? Reiciendis suscipit optio quidem nobis velit neque beatae, ratione ea laboriosam quia! Quam, dolores impedit? Consequatur?
+                Full-stack web developer leveraging business management and business development experience to build engaging and intuitive user experiences. I've worked in the educational technology and SaaS marketplace for over 12 years, and am passionate about developing processes and apps that will engage audiences of all ages and provide both the consumer and businesses with impactful and problem-solving experiences. I’m excited to leverage my skills as part of an innovative, quality-driven team to build state of the art experiences on the web and help businesses streamline their operations. My problem-solving abilities, determination, organization, and unique perspectives would make me a strong addition to any development team.
                 </p>
 
                 <a href="#contact" className='btn btn-primary'>Let's Connect</a>

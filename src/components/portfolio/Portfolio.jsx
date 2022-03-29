@@ -11,6 +11,8 @@ const data = [
         id: 1,
         image: PROJ1,
         title: 'Stick It To Starbucks',
+        description: 'Local coffee shop locator application to support small businesses.',
+        stack: 'HTML, CSS, JavaScript',
         github: 'https://bit.ly/3w3Jjdy',
         demo: 'https://bit.ly/36i70UU'
     },
@@ -18,6 +20,8 @@ const data = [
         id: 2,
         image: PROJ2,
         title: 'Workday Scheduler',
+        description: 'App that adds and stores events in a users schedule. Features include efficient local storage management and moment-js.',
+        stack: 'HTML, CSS, JavaScript',
         github: 'https://github.com/denimazzei/Deni-Workday-Scheduler-hw5',
         demo: 'https://denimazzei.github.io/Deni-Workday-Scheduler-hw5/'
     },
@@ -25,6 +29,8 @@ const data = [
         id: 3,
         image: PROJ3,
         title: 'Space EMS',
+        description: 'Web-based, space-themed, multi-directional shooter-style game.',
+        stack: 'HTML, CSS, JavaScript, Handlebars, p5.js',
         github: 'https://bit.ly/3CF9lFv',
         demo: 'https://bit.ly/3JsGLKd'
     },
@@ -32,6 +38,8 @@ const data = [
         id: 4,
         image: PROJ4,
         title: 'Adventure 2 Learning App',
+        description: 'Providing classroom teachers with a PWA tool for accessing A2Ls online streaming library of educational videos with students.',
+        stack: 'React, Node, Express, Apollo, GraphQL, MongoDB',
         github: 'https://bit.ly/3MNTb13',
         demo: 'https://bit.ly/3JdbCu1'
     },
@@ -39,6 +47,8 @@ const data = [
         id: 5,
         image: PROJ5,
         title: 'Password Generator',
+        description: 'Dedicated webpage to generate safe passwords for employees',
+        stack: 'HTML, CSS, JavaScript',
         github: 'https://github.com/denimazzei/Deni-Password-Generator-hw3',
         demo: 'https://denimazzei.github.io/Deni-Password-Generator-hw3/'
     },
@@ -54,13 +64,15 @@ const Portfolio = () => {
 
             <div className="container portfolio_container">
                 {
-                    data.map(({id, image, title, github, demo}) => {
+                    data.map(({id, image, title, description, stack, github, demo}) => {
                         return(
                             <article key={id} className='portfolio_item'>
                                 <div className="portfolio_item-image">
                                     <img src={image} alt={title} />
                                 </div>
                                 <h3>{title}</h3>
+                                <h5>{description}</h5>
+                                <h6>{stack}</h6>
                                 <div className="portfolio_item-cta">
                                     <a href={github} className='btn' target='_blank'>GitHub</a>
                                     <a href={demo} className='btn btn-primary' target='_blank'>Live Demo</a>

@@ -23,8 +23,18 @@
 }
 
 .portfolio_item h3 {
-    margin: 1.2rem 0 2rem;
+    margin: 1.2rem 0 1rem;
 }
+
+.portfolio_item h5 {
+    margin: 1.2rem 0 1rem;
+}
+
+.portfolio_item h6 {
+    margin: 1.2rem 0 1rem;
+    color: var(--color-light);
+}
+
 
 .portfolio_item-cta{
     display: flex;

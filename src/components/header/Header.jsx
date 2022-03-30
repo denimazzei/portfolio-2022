@@ -1,7 +1,7 @@
 import React from 'react'
 import './header.css'
 import CTA from './CTA'
-import ME from '../../assets/dm-logo.png'
+import ME from '../../assets/logo.4.png'
 import HeaderSocial from './HeaderSocials'
 import {GrLocation} from "react-icons/gr"
 

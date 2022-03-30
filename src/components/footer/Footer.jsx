@@ -3,7 +3,7 @@ import './footer.css'
 import {FaFacebookF} from "react-icons/fa"
 import {FaInstagram} from "react-icons/fa"
 import {FaLinkedin} from "react-icons/fa"
-import LOGO from "../../assets/dm-logo.png"
+import LOGO from "../../assets/logo.4.png"
 
 const Footer = () => {
     return (

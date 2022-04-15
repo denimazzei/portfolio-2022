@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.f3d2fb23.css",
-    "main.js": "/static/js/main.cff50ab6.js",
+    "main.css": "/static/css/main.099b48c1.css",
+    "main.js": "/static/js/main.4fa510f9.js",
     "static/media/a2l-p3.png": "/static/media/a2l-p3.4aa47739fc71f415a3af.png",
     "static/media/group-project-1.png": "/static/media/group-project-1.ae5b92ba2ac0e6cc8268.png",
     "static/media/password-generator2.png": "/static/media/password-generator2.b3def033b071f3fe317d.png",
@@ -10,14 +10,14 @@
     "static/media/vader_1.jpeg": "/static/media/vader_1.85942a12d93b2f4e5d31.jpeg",
     "static/media/cv3.pdf": "/static/media/cv3.4727d572dd81e39cb297.pdf",
     "static/media/workday-scheduler.png": "/static/media/workday-scheduler.e7c9f4ab338b517a6313.png",
+    "static/media/logo.4.png": "/static/media/logo.4.54381e29f762b0c805a3.png",
     "static/media/deni-beach1.jpeg": "/static/media/deni-beach1.8b87ba6903e080deb4eb.jpeg",
-    "static/media/dm-logo.png": "/static/media/dm-logo.3d703338f161858624ae.png",
     "index.html": "/index.html",
-    "main.f3d2fb23.css.map": "/static/css/main.f3d2fb23.css.map",
-    "main.cff50ab6.js.map": "/static/js/main.cff50ab6.js.map"
+    "main.099b48c1.css.map": "/static/css/main.099b48c1.css.map",
+    "main.4fa510f9.js.map": "/static/js/main.4fa510f9.js.map"
   },
   "entrypoints": [
-    "static/css/main.f3d2fb23.css",
-    "static/js/main.cff50ab6.js"
+    "static/css/main.099b48c1.css",
+    "static/js/main.4fa510f9.js"
   ]
 }
